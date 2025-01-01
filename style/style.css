@@ -1,0 +1,321 @@
+/**
+General
+**/
+@import url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* #region Header*/
+.header {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.navbar .logo a {
+  font-size: 2rem;
+}
+
+header a:link,
+header a:visited,
+.a-main a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .links,
+.navbar .links2 {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+
+.links a,
+.a-main a {
+  padding: 10px 9px;
+  border: 2px solid transparent;
+  transition: border 1s;
+}
+
+
+.navbar .links a:hover,
+.a-main a:hover {
+  border: 2px solid white;
+  transition: border 1.5s;
+}
+
+.navbar .links2 a {
+  text-decoration: none;
+}
+
+#nav-logo-nvidia {
+  width: 5rem;
+}
+
+#nav-logo-amd {
+  width: 4rem;
+}
+
+#nav-logo-intel {
+  width: 3rem;
+}
+
+#nav-logo-home {
+  width: 2rem;
+}
+
+#nav-logo-about-us {
+  width: 2.6rem;
+}
+
+#nav-logo-contact-us {
+  width: 2.5rem;
+}
+
+/*#endregion*/
+
+/* #region Footer*/
+footer {
+  background: black;
+}
+
+#footer {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+footer .me {
+  color: white;
+}
+
+.social-me {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.img-logo {
+  width: 4rem;
+}
+
+.img-logo-tiktok {
+  width: 3.2rem;
+}
+
+.img-logo-youtube {
+  width: 3.6rem;
+  padding-left: 0.5rem;
+}
+
+footer .me>a:link,
+footer .me>a:visited {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid transparent;
+  transition: border 1s;
+}
+
+footer .me>a:hover {
+  border-bottom: 2px solid white;
+  transition: border 2s;
+}
+
+/*#endregion */
+
+
+/* #region Responsive */
+
+@media only screen and (max-width:1000px) {
+
+  /*head*/
+  .navbar {
+    display: inline;
+  }
+
+  .navbar .links,
+  .navbar .links2,
+  .logo {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  /*footer*/
+  #footer {
+    display: inline;
+  }
+
+  .me {
+    padding: 0.5rem 0;
+  }
+
+
+
+  /*main*/
+
+  #img-Manufacturers-Companies {
+    width: 80% !important;
+    padding: 2rem 0 0 5rem !important;
+  }
+
+  .main-div {
+    padding: 4rem 1.5rem 0 1.5rem !important;
+  }
+
+  .a-main a {
+    border-bottom: none !important;
+  }
+
+  .main-div {
+    max-width: 100% !important;
+  }
+
+  #img-img_part,
+  .img_nvidia,
+  .img_amd,
+  .img_intel {
+    width: 90% !important;
+    padding-left: 4rem !important;
+    margin: 0 !important;
+  }
+
+
+  .main-section,
+  .main-section-down,
+  .main-section2 {
+    display: inline !important;
+  }
+
+  .main-section,
+  .main-section2 {
+    padding: 0 !important;
+  }
+
+  #op-sys,
+  #gpu {
+    display: none;
+  }
+
+  #main-section-slide {
+    display: none !important;
+  }
+
+  .div_main_top {
+    margin: 0.5rem 1rem 5rem 1rem !important;
+  }
+
+  #main_top h1 {
+    margin-bottom: 2rem !important;
+  }
+
+  #div_contener {
+    display: inline !important;
+  }
+
+  #message {
+    width: 90% !important;
+  }
+
+
+  #div_left {
+    border: none !important;
+  }
+
+  #div_right {
+    border: none !important;
+  }
+
+  #cu {
+    margin-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width:350px) {
+  .links {
+    flex-wrap: wrap;
+  }
+
+  #main_top h1 {
+    font-size: 2.5rem !important;
+  }
+}
+
+/*#endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*????*/
+#cat {
+  background: url(../image/resize-17085326341045879970cat.jpg) top left no-repeat;
+  background-size: 100%;
+}

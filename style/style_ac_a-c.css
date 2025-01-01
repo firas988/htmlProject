@@ -1,0 +1,119 @@
+/* #region Main*/
+
+body {
+  background: black;
+}
+
+
+
+#main_top {
+  margin: 2% 5% 0 5%;
+  background-color: white;
+  height: 120rem;
+
+}
+
+.div_main_top {
+  margin: 7rem 15rem;
+}
+
+#div_contener {
+  display: flex;
+  justify-content: center;
+}
+
+.div_main_top figure img {
+  width: 100%;
+
+}
+
+figure {
+  max-width: 70%;
+  margin-left: 0rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+figcaption {
+  color: white;
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#main_top h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 10rem;
+  padding-top: 4rem;
+}
+
+#div_left {
+  padding-right: 1%;
+  border-right: 1px solid black;
+}
+
+#div_right {
+  padding-left: 1%;
+  border-left: 1px solid black;
+}
+
+h1,
+h2,
+#main_top p {
+  color: black;
+}
+
+h2 {
+  font-size: 2rem;
+  max-width: 36rem;
+  border-bottom: 2px solid black;
+  margin-bottom: 1.5rem;
+}
+
+#main_top p {
+  font-size: 1.5rem;
+}
+
+/*message*/
+
+
+.input-group {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+#message {
+  width: 70%;
+  height: 10rem;
+}
+
+#send {
+  color: white;
+  background-color: #007bff;
+  margin-top: 1.5rem;
+  margin-left: 18%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/*#endregion*/
+
+
+
+/* #region Responsive */
+@media only screen and (max-width:1000px) {
+  #div_right {
+    margin-top: 5rem;
+  }
+
+}
+
+/*#endregion */

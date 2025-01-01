@@ -1,0 +1,167 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #000000, #330c43);
+  background-attachment: fixed;
+}
+
+
+/* #region Main*/
+
+.main-section {
+  display: flex;
+  align-items: center;
+  height: 50rem;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.main-section-down {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30rem;
+  padding: 0 15px;
+  max-width: 92rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+
+}
+
+.main-section .main-div,
+.main-section-down .main-div {
+  max-width: 50%;
+  color: white;
+}
+
+.main-div h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.main-div p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #c9c7c7;
+}
+
+.main-div {
+  padding-left: 2rem;
+}
+
+#img-img_part {
+  width: 40%;
+}
+
+#img-Manufacturers-Companies {
+  width: 300px;
+}
+
+.a-main a {
+  border-bottom: 2px dashed white;
+}
+
+
+
+
+/* table*/
+#op-sys {
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  text-align: center;
+  padding: 12rem 2rem;
+  margin-bottom: 5rem;
+
+}
+
+#op-sys-td {
+  background: #fff;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table caption h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#border-left {
+  border-top-left-radius: 10px;
+}
+
+#border-right {
+  border-top-right-radius: 10px;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  color: white;
+}
+
+#op-sys thead tr {
+  height: 60px;
+  background: #36304a;
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+#op-sys .link:link,
+#op-sys .link:visited {
+  color: black;
+  text-decoration: none;
+  padding: 0.45%;
+  border-bottom: 2px dashed black;
+  transition: border 1s;
+}
+
+#op-sys .link:hover {
+  border-bottom: 2px solid #1F1E1C;
+  transition: border 1.5s;
+}
+
+#linux_logo {
+  width: 9rem;
+  height: 5rem;
+}
+
+#MacOS_logo {
+  width: 9rem;
+  height: 8rem;
+}
+
+td #Microsoft_logo {
+  width: auto;
+}
+
+#Microsoft_logo>a>img {
+  width: 60%;
+}
+
+.Windows_logo {
+  width: 10rem;
+}
+
+#apple_logo {
+  width: 18rem;
+}
+
+/*#endregion */
